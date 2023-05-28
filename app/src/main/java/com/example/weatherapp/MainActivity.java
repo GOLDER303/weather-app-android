@@ -51,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
         pressure = findViewById(R.id.pressure);
         humidity = findViewById(R.id.humidity);
 
+        TextView address = findViewById(R.id.address);
+        address.setText(CITY);
+
         loader.setVisibility(View.VISIBLE);
         mainContainer.setVisibility(View.GONE);
         errorText.setVisibility(View.GONE);
